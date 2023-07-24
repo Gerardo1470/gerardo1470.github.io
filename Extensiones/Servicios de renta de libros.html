@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Para activar efectos de JavaScript para Menus-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
+    <style>
+        body {
+            background-image: url("Galeria/highway.jpg");
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Diseño/Estilo2.css">
+</head>
+
+
+<body>
+
+    <!-- Barra de navegación-->
+    <nav class="nav-extended" style="background-color: #171e51 ">
+        <div class="nav-wrapper">
+            <a href="../index.html" class="brand-logo"><img src="../Images/logo.png" width=65 height=65 />Biblioteca de la Telesecundaria 75 'El rincón de la Luna'</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+
+            <!-- Menu para dispositivos móviles-->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="../Extensiones/Categoria de libros.html">Categorias de libros</a></li>
+                <li><a href="../Extensiones/Servicios de renta de libros.html">Servicios de renta de libros</a></li>
+                <li><a href="../Extensiones/Ubicación.html">Ubicación</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-content">
+
+            <!--Menu principal-->
+            <ul class="tabs tabs-transparent">
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu principal-->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="../Extensiones/Categoria de libros.html">Categorias de libros</a></li>
+        <li><a href="../Extensiones/Servicios de renta de libros.html">Servicios de renta de libros</a></li>
+        <li><a href="../Extensiones/Ubicación.html">Ubicación</a></li>
+    </ul>
+
+    <h1 class="title">
+        Prestamo de libros</h1>
+        <hr>
+        <div class="container">
+
+            <div class="card">
+                <img src="Galeria/plane.jpg">
+                <h4 style="color:#000000">Renta normal</h4>
+                <b>
+                    <p style="color:#000000">
+                        Se solicita el libro que se desea en un periodo máximo de 7 dias sin recargo
+                        alguno
+                    </p>
+                </b>
+            </div>
+
+            <div class="card">
+                <img src="Galeria/truck.jpg">
+                <h4 style="color:#000000">Renta especial</h4>
+                <p style="color:#000000">
+                    
+                        Se presta el libro que se requiera por 14 dias, si se tarda en devolverlo pasando
+                        el periodo comienza recargo.
+                  
+                </p>
+
+            </div>
+
+            <div class="card">
+                <img src="Galeria/train.jpg">
+                <h4 style="color:#000000">Renta deluxe</h4>
+                <b>
+                    <p style="color:#000000">
+                        Se renta por 28 dias el libro. No obstante, si se tarda al menos 1 dia en delvolverlo
+                        NO podra solicitar libros en los proximos 60 días
+                    </p>
+                </b>
+
+            </div>
+
+        </div>
+</body>
+</html>
+
